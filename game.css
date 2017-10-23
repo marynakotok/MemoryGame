@@ -1,0 +1,162 @@
+body
+{
+	margin: 0;
+	background-color: #151823;
+	color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+h1
+{
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#play_board
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#down
+{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+#images
+{
+	text-align: center;
+	margin: auto;
+}
+#score
+{
+	letter-spacing: 2px;
+	float: left;
+	margin-left: 12%;
+	margin-bottom: 2%;
+
+}
+#timer
+{
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	max-width: 500px;
+
+}
+#reset
+{
+	float:right;
+	margin-right: 2%;
+	padding-left: 10px;
+	padding: 10px;
+	background-color:  #151823;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	border:3px solid #209781;
+	color: 	#209781;
+	cursor: pointer;
+	margin-bottom: 2%;
+	min-width: 100px;
+}
+#reset:hover
+{
+	border: 3px solid #151823;
+	color: #151823;
+	background-color: #209781;
+}
+#welcome_board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#welcome_board label
+{
+	clear: both;
+	float: left;
+	margin-left:33%;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#welcome_board input
+{
+	clear: both;
+	float:left;
+	margin-left:35%;
+	text-align: center;
+	border:3px solid #209781;
+	width: 30%;
+	font-family: 'Lobster', sans-serif;
+	
+}
+#play
+{
+	clear: both;
+	float:left;
+	margin-left:42%;
+	margin-top: 5%;
+	padding-left: 10px;
+	padding: 10px;
+	background-color: #151823;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	border:3px solid #209781;
+	color: 	#209781;
+	cursor: pointer;
+	min-width: 100px;
+}
+#play:hover
+{
+	border: 3px solid #151823;
+	color: #151823;
+	background-color: #209781;
+}
+
+.cardActive
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid #e9b64a;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid #51c8b2;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+
+

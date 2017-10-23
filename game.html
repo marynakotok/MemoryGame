@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="shortcut icon" href="images/mem.ico" type="images/ico" />
+</head>
+<body>
+	<header>
+		<h1>Memory Game</h1>
+	</header>
+	<main>
+			<div id="play_board" hidden="">
+				<div id="images"> </div>
+				<div id="down">
+					<div id="score">Found counter: 0</div>
+				    <div id="timer"> 0 </div>
+				    <button type="button" id="reset" onclick="reset()" disabled hidden="">Reset</button>	
+				</div>
+			</div>
+
+			<div id="welcome_board">
+		    	<label for="userImages">ENTER N IMAGES</label>
+		    	<input type="text" id="userImages" placeholder="from 3 to 10" >
+		    	<label for="userTime">ENTER THE TIME</label>
+		    	<input type="text" id="userTime" placeholder="from 10 to 120" >
+		    	<button type="button" id="play" onclick="play()">Play</button>
+    		</div>
+	</main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
